@@ -1,0 +1,39 @@
+name: Generate Snake
+
+# run on schedule and via manual trigger
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'   # daily at 00:00 UTC (adjust if you want)
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake SVGs & GIFs
+        uses: platane/snk@v3
+        with:
+          # set your GitHub username explicitly
+          github_user_name: NoahBlaauw
+          # list of files to generate (one per line). Adjust names/options as desired
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.gif
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit generated assets to output branch
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore: update generated snake"
+          add: "dist/*"
+          # If you want a separate branch named 'output', set `new_branch: output`
+          # If you prefer to push to current branch, remove new_branch
+          new_branch: output
