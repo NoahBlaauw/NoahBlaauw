@@ -3,7 +3,7 @@
 <img align="right" height="150" src="assets/hat-kid.gif" alt="Hat Kid dancing" />
 
 ### About me
-- 🎯 Interested in algorithms, optimization, and practical tools that help people
+- 🎯 Interested in programming, animation, and birds
 - 💬 Discord: **passivesausage**
 - 📧 Email: **noahblaauwork@gmail.com**
 - 💼 LinkedIn: <a href="https://www.linkedin.com/in/noah-blaauw-491125360/">noah-blaauw-491125360</a>
