@@ -39,11 +39,11 @@
   Tech: MongoDB, EJS, HTML, CSS, JS  
   Repo: `https://github.com/Gras-sie/Dynamic-Community-Portal-Website`
 
-**BC Student Wellness Management System** — A system for managing student wellness services through a JSP web app (login/registration) and a Java Swing desktop app (appointments, counselors, feedback).
+- **BC Student Wellness Management System** — A system for managing student wellness services through a JSP web app (login/registration) and a Java Swing desktop app (appointments, counselors, feedback).
   Tech: Java, JSP/Servlets, Swing, PostgreSQL, JavaDB
   Repo: `https://github.com/Jt8021/PRG381_project`
 
-**Linear & Integer Programming Solver** — A menu-driven solver for Linear Programming and Integer Programming models with support for Simplex, Branch & Bound, Knapsack, and Cutting Plane algorithms, plus sensitivity analysis.
+- **Linear & Integer Programming Solver** — A menu-driven solver for Linear Programming and Integer Programming models with support for Simplex, Branch & Bound, Knapsack, and Cutting Plane algorithms, plus sensitivity analysis.
   Tech: C#, .NET (Visual Studio) 
   Repo: `https://github.com/NoahBlaauw/LPR381V1Project`
 
