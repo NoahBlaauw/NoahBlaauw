@@ -46,6 +46,12 @@
 - **Linear & Integer Programming Solver** — A menu-driven solver for Linear Programming and Integer Programming models with support for Simplex, Branch & Bound, Knapsack, and Cutting Plane algorithms, plus sensitivity analysis.
   Tech: C#, .NET (Visual Studio) 
   Repo: `https://github.com/NoahBlaauw/LPR381V1Project`
+---
+## 📄 Read My CV
+
+If you’d like to learn more about my experience, you can view my CV here:
+
+[📂 Open my CV (PDF)](https://github.com/NoahBlaauw/NoahBlaauw/blob/main/assets/IT%20CV.pdf)
 
 ---
 
