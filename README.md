@@ -35,22 +35,23 @@
 ---
 
 ### Featured projects
-- **Project One** — Short one-liner about what it does and why it’s cool.  
-  Tech: C#, .NET, SQL  
-  Demo / Repo: `[link here]`
+- **Dynamic-Community-Portal-Website** — A community portal website utilising EJS, MongoDB, and GIT
+  Tech: MongoDB, EJS, HTML, CSS, JS  
+  Repo: `https://github.com/Gras-sie/Dynamic-Community-Portal-Website`
 
-- **Project Two** — One sentence about the problem it solves.  
-  Tech: Python, Flask  
-  Demo / Repo: `[link here]`
+**BC Student Wellness Management System** — A system for managing student wellness services through a JSP web app (login/registration) and a Java Swing desktop app (appointments, counselors, feedback).
+  Tech: Java, JSP/Servlets, Swing, PostgreSQL, JavaDB
+  Repo: `https://github.com/Jt8021/PRG381_project`
 
-- **Project Three** — Another short value statement.  
-  Tech: JS, React  
-  Demo / Repo: `[link here]`
+**Linear & Integer Programming Solver** — A menu-driven solver for Linear Programming and Integer Programming models with support for Simplex, Branch & Bound, Knapsack, and Cutting Plane algorithms, plus sensitivity analysis.
+  Tech: C#, .NET (Visual Studio) 
+  Repo: `https://github.com/NoahBlaauw/LPR381V1Project`
 
 ---
 
 ### Fun stuff
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NoahBlaauw/NoahBlaauw/output/snake-dark.svg" />
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/NoahBlaauw/NoahBlaauw/output/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NoahBlaauw/NoahBlaauw/output/dist/github-snake-dark.svg" />
+  <img alt="GitHub contributions snake" src="https://raw.githubusercontent.com/NoahBlaauw/NoahBlaauw/output/dist/github-snake.svg" />
 </picture>
+
