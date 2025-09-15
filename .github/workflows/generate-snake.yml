@@ -35,7 +35,8 @@ jobs:
           message: "chore: update generated snake"
           add: "dist/*"
           new_branch: output
-          push: --force
-          fetch: --tags --force   # 👈 ensures branch history is synced
+          push: --force --set-upstream origin output   # 👈 set upstream explicitly
+          fetch: --tags --force
+
 
 
