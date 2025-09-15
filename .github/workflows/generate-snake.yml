@@ -36,4 +36,6 @@ jobs:
           add: "dist/*"
           new_branch: output
           push: --force
+          fetch: --tags --force   # 👈 ensures branch history is synced
+
 
