@@ -34,6 +34,6 @@ jobs:
         with:
           message: "chore: update generated snake"
           add: "dist/*"
-          # If you want a separate branch named 'output', set `new_branch: output`
-          # If you prefer to push to current branch, remove new_branch
           new_branch: output
+          push: --force
+
